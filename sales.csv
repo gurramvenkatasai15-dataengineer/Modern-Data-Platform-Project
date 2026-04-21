@@ -1,0 +1,102 @@
+order_id,customer_id,customer_name,product_id,product_name,category,quantity,unit_price,total_amount,order_date,region,status
+ORD001,CUST01,  Alice Johnson  ,PROD01,Wireless Mouse,Electronics,2,25.99,51.98,05-01-2024,North,completed
+ORD002,CUST02,BOB SMITH,PROD02,  USB Keyboard  ,ELECTRONICS,1,45,45,06-01-2024,south,COMPLETED
+ORD003,CUST03,carol white,PROD03,Laptop Stand,electronics,3,19.99,59.97,07-01-2024,East,completed
+ORD004,CUST04,  David Brown  ,PROD04,HDMI Cable,Accessories,,12.99,,08-01-2024,WEST,pending
+ORD005,CUST05,Emma Davis,PROD05,Webcam,Electronics,1,89.99,89.99,09-01-2024,North,completed
+ORD006,CUST06,FRANK MILLER,PROD06,Desk Lamp,  Furniture  ,2,34.5,69,10-01-2024,South,  shipped  
+ORD007,CUST07,grace wilson,PROD07,Monitor,Electronics,1,299.99,299.99,11-01-2024,east,Completed
+ORD008,CUST08,  Henry Moore  ,PROD01,Wireless Mouse,Electronics,5,25.99,129.95,12-01-2024,North,completed
+ORD009,,Isabella Taylor,PROD08,Mechanical Keyboard,ELECTRONICS,2,75,150,13-01-2024,West,pending
+ORD010,CUST10,JAMES ANDERSON,PROD09,Standing Desk,Furniture,1,450,450,14-01-2024,SOUTH,completed
+ORD001,CUST01,  Alice Johnson  ,PROD01,Wireless Mouse,Electronics,2,25.99,51.98,05-01-2024,North,completed
+ORD011,CUST11,karen jackson,PROD10,Chair Mat,Furniture,2,29.99,59.98,01-15-2024,east,COMPLETED
+ORD012,CUST12,  LIAM HARRIS  ,PROD11,USB Hub,Electronics,3,19.99,59.97,16-01-2024,North,completed
+ORD013,CUST13,mia martin,PROD12,Noise Headphones,Electronics,,199.99,,17-01-2024,south,shipped
+ORD014,CUST14,NOAH THOMPSON,PROD13,  Desk Organizer  ,accessories,4,14.99,59.96,18-01-2024,West,completed
+ORD015,CUST15,olivia garcia,PROD14,Laptop Bag,Accessories,1,49.99,49.99,19-01-2024,EAST,  PENDING  
+ORD016,CUST16,  PETER MARTINEZ  ,PROD03,Laptop Stand,Electronics,2,19.99,39.98,20-01-2024,north,completed
+ORD017,CUST17,quinn robinson,PROD15,Smart Speaker,Electronics,1,79.99,79.99,21-01-2024,South,completed
+ORD018,CUST18,RACHEL CLARK,PROD16,Cable Organizer,Accessories,10,8.99,89.9,22-01-2024,east,COMPLETED
+ORD019,CUST19,  samuel rodriguez  ,PROD17,Ergonomic Mouse,Electronics,2,39.99,79.98,23-01-2024,West,completed
+ORD020,CUST20,TINA LEWIS,PROD18,  Monitor Stand  ,Furniture,1,65,65,24-01-2024,NORTH,shipped
+ORD021,,URSULA LEE,PROD19,Keyboard Wrist Rest,Accessories,3,12.99,38.97,25-01-2024,south,completed
+ORD022,CUST22,victor walker,PROD20,Portable SSD,Electronics,1,109.99,109.99,26-01-2024,East,completed
+ORD023,CUST23,  WENDY HALL  ,PROD05,Webcam,Electronics,,89.99,,27-01-2024,west,PENDING
+ORD024,CUST24,xander allen,PROD21,Power Strip,Accessories,2,22.99,45.98,28-01-2024,North,completed
+ORD025,CUST25,YVONNE YOUNG,PROD22,Laptop Cooler,Electronics,1,34.99,34.99,29-01-2024,SOUTH,completed
+ORD026,CUST26,  zachary hernandez  ,PROD23,Desk Pad,Accessories,1,18.99,18.99,30-01-2024,East,  completed  
+ORD027,CUST27,Amy King,PROD24,4K Monitor,Electronics,1,549.99,549.99,01-02-2024,west,completed
+ORD028,CUST28,BRIAN WRIGHT,PROD25,Gaming Chair,Furniture,1,329.99,329.99,02-02-2024,North,shipped
+ORD029,CUST29,  chloe lopez  ,PROD26,Blue Light Glasses,Accessories,2,24.99,49.98,03-02-2024,SOUTH,completed
+ORD030,CUST30,DANIEL HILL,PROD27,Wireless Charger,Electronics,3,29.99,89.97,04-02-2024,east,COMPLETED
+ORD031,CUST31,ella scott,PROD28,  Desk Fan  ,Electronics,1,44.99,44.99,05-02-2024,West,completed
+ORD032,CUST32,  FRANK GREEN  ,PROD09,Standing Desk,Furniture,,450,,06-02-2024,north,pending
+ORD033,CUST33,grace adams,PROD29,Surge Protector,Accessories,2,27.99,55.98,07-02-2024,South,completed
+ORD034,CUST34,HENRY BAKER,PROD30,Portable Monitor,Electronics,1,249.99,249.99,08-02-2024,EAST,completed
+ORD035,CUST35,  isabella gonzalez  ,PROD31,Laptop Sleeve,Accessories,3,16.99,50.97,09-02-2024,West,  SHIPPED  
+ORD036,CUST36,JACK NELSON,PROD02,USB Keyboard,Electronics,2,45,90,10-02-2024,NORTH,completed
+ORD037,CUST37,karen carter,PROD32,Monitor Arm,Furniture,1,79.99,79.99,11-02-2024,south,Completed
+ORD038,CUST38,  LIAM MITCHELL  ,PROD33,Trackpad,Electronics,1,99.99,99.99,12-02-2024,East,completed
+ORD039,CUST39,mia perez,PROD34,Desk Whiteboard,accessories,1,39.99,39.99,13-02-2024,west,COMPLETED
+ORD040,CUST40,NOAH ROBERTS,PROD35,Webcam Cover,Accessories,5,4.99,24.95,14-02-2024,North,completed
+ORD041,CUST41,  olivia turner  ,PROD36,  Mechanical Pencil Set  ,accessories,2,11.99,23.98,15-02-2024,SOUTH,completed
+ORD042,CUST42,PETER PHILLIPS,PROD37,Noise Machine,Electronics,1,49.99,49.99,16-02-2024,east,completed
+ORD043,CUST43,quinn campbell,PROD38,  File Organizer  ,Accessories,3,17.99,53.97,17-02-2024,West,  completed  
+ORD044,CUST44,  RACHEL PARKER  ,PROD39,Foot Rest,Furniture,1,35.99,35.99,18-02-2024,north,SHIPPED
+ORD045,CUST45,samuel evans,PROD40,Laptop Lock,accessories,2,19.99,39.98,19-02-2024,South,completed
+ORD046,CUST46,TINA EDWARDS,PROD41,Drawing Tablet,Electronics,1,179.99,179.99,20-02-2024,EAST,completed
+ORD047,CUST47,  ursula collins  ,PROD42,Desk Clock,accessories,1,22.99,22.99,21-02-2024,West,completed
+ORD048,CUST48,VICTOR STEWART,PROD05,Webcam,Electronics,2,89.99,179.98,22-02-2024,NORTH,  completed  
+ORD049,CUST49,wendy sanchez,PROD43,Keyboard Cover,Accessories,,9.99,,23-02-2024,south,pending
+ORD050,CUST50,  XAVIER MORRIS  ,PROD44,Screen Cleaner Kit,Accessories,4,12.99,51.96,24-02-2024,East,completed
+ORD051,CUST51,YVONNE ROGERS,PROD45,  Smart Plug  ,Electronics,3,15.99,47.97,25-02-2024,west,COMPLETED
+ORD052,CUST52,  zachary reed  ,PROD46,Desk Shelf,Furniture,1,54.99,54.99,26-02-2024,North,completed
+ORD053,CUST53,Amy Cook,PROD47,Headphone Stand,accessories,2,21.99,43.98,27-02-2024,SOUTH,completed
+ORD054,,BRIAN MORGAN,PROD48,External DVD Drive,Electronics,1,39.99,39.99,28-02-2024,east,completed
+ORD055,CUST55,  chloe bell  ,PROD49,USB Type-C Hub,Electronics,2,34.99,69.98,01-03-2024,West,  PENDING  
+ORD056,CUST56,DANIEL MURPHY,PROD50,Anti-Glare Screen Filter,Accessories,1,18.99,18.99,02-03-2024,north,completed
+ORD057,CUST57,ella bailey,PROD24,4K Monitor,Electronics,,549.99,,03-03-2024,South,pending
+ORD058,CUST58,  FRANK RIVERA  ,PROD51,Desk Tray,accessories,3,13.99,41.97,04-03-2024,EAST,completed
+ORD059,CUST59,grace cooper,PROD52,Laptop Riser,Electronics,2,27.99,55.98,05-03-2024,West,Completed
+ORD060,CUST60,HENRY RICHARDSON,PROD53,  Monitor Cleaning Kit  ,accessories,1,11.99,11.99,06-03-2024,NORTH,completed
+ORD061,CUST61,  isabella cox  ,PROD32,Monitor Arm,Furniture,2,79.99,159.98,07-03-2024,south,COMPLETED
+ORD062,CUST62,JACK HOWARD,PROD54,Bluetooth Adapter,Electronics,3,14.99,44.97,08-03-2024,East,completed
+ORD063,CUST63,karen ward,PROD55,  Pencil Cup  ,accessories,2,8.99,17.98,09-03-2024,west,  shipped  
+ORD064,CUST64,  LIAM TORRES  ,PROD56,USB Docking Station,Electronics,1,129.99,129.99,10-03-2024,North,completed
+ORD065,CUST65,mia peterson,PROD57,Wireless Trackball,Electronics,1,49.99,49.99,11-03-2024,SOUTH,COMPLETED
+ORD066,CUST66,NOAH GRAY,PROD58,Cable Sleeve,accessories,5,6.99,34.95,12-03-2024,east,completed
+ORD067,CUST67,  olivia ramirez  ,PROD59,Desk Plant Pot,accessories,2,14.99,29.98,13-03-2024,West,completed
+ORD068,CUST68,PETER JAMES,PROD60,Ergonomic Footrest,Furniture,,35.99,,14-03-2024,north,pending
+ORD069,CUST69,quinn watson,PROD61,Laser Pointer,accessories,3,12.99,38.97,15-03-2024,South,  COMPLETED  
+ORD070,CUST70,  RACHEL BROOKS  ,PROD01,Wireless Mouse,Electronics,4,25.99,103.96,16-03-2024,EAST,completed
+ORD071,CUST71,samuel kelly,PROD62,  Printer Paper Ream  ,accessories,2,11.99,23.98,17-03-2024,West,completed
+ORD072,CUST72,TINA SANDERS,PROD63,Portable Projector,Electronics,1,399.99,399.99,18-03-2024,NORTH,shipped
+ORD073,CUST73,  ursula price  ,PROD64,Sticky Note Dispenser,accessories,3,7.99,23.97,19-03-2024,south,completed
+ORD074,,VICTOR BENNETT,PROD65,Cord Management Box,accessories,2,19.99,39.98,20-03-2024,East,COMPLETED
+ORD075,CUST75,wendy wood,PROD66,  Laptop Privacy Screen  ,Accessories,1,44.99,44.99,21-03-2024,west,completed
+ORD076,CUST76,  XAVIER BARNES  ,PROD67,Portable Keyboard,Electronics,1,59.99,59.99,22-03-2024,North,  completed  
+ORD077,CUST77,YVONNE ROSS,PROD68,Monitor Light Bar,Electronics,1,39.99,39.99,23-03-2024,SOUTH,completed
+ORD078,CUST78,  zachary henderson  ,PROD36,Mechanical Pencil Set,accessories,,11.99,,24-03-2024,east,pending
+ORD079,CUST79,Amy Coleman,PROD69,Smart Notebook,accessories,2,29.99,59.98,25-03-2024,West,completed
+ORD080,CUST80,BRIAN JENKINS,PROD70,  USB Fan  ,Electronics,3,12.99,38.97,26-03-2024,north,COMPLETED
+ORD081,CUST81,  chloe perry  ,PROD71,Desk Vacuum,Electronics,1,24.99,24.99,27-03-2024,South,completed
+ORD082,CUST82,DANIEL POWELL,PROD72,Laptop Stand Arm,Furniture,1,89.99,89.99,28-03-2024,EAST,completed
+ORD083,CUST83,ella long,PROD73,  Screen Privacy Filter  ,Accessories,2,32.99,65.98,29-03-2024,West,  SHIPPED  
+ORD084,CUST84,  FRANK PATTERSON  ,PROD74,Bluetooth Keyboard,Electronics,1,69.99,69.99,30-03-2024,NORTH,completed
+ORD085,CUST85,grace hughes,PROD75,  Bamboo Desk Tray  ,accessories,3,16.99,50.97,31-03-2024,south,Completed
+ORD086,CUST86,HENRY FLORES,PROD05,Webcam,Electronics,1,89.99,89.99,01-04-2024,East,completed
+ORD087,CUST87,  isabella washington  ,PROD76,Wireless Numpad,Electronics,1,34.99,34.99,02-04-2024,west,COMPLETED
+ORD088,CUST88,JACK BUTLER,PROD77,Pen Holder,accessories,4,6.99,27.96,03-04-2024,North,  completed  
+ORD089,CUST89,karen simmons,PROD78,  Laptop Cooling Pad  ,Electronics,2,29.99,59.98,04-04-2024,SOUTH,completed
+ORD090,CUST90,  LIAM FOSTER  ,PROD79,Smart Whiteboard,Electronics,1,899.99,899.99,05-04-2024,east,shipped
+ORD091,CUST91,mia gonzales,PROD80,Cable Clip Set,accessories,6,4.99,29.94,06-04-2024,West,completed
+ORD092,CUST92,NOAH BRYANT,PROD81,  Ergonomic Keyboard  ,Electronics,1,119.99,119.99,07-04-2024,north,COMPLETED
+ORD093,CUST93,  olivia alexander  ,PROD82,Desk Lamp with USB,Electronics,2,42.99,85.98,08-04-2024,South,completed
+ORD094,CUST94,PETER RUSSELL,PROD83,Document Scanner,Electronics,1,189.99,189.99,09-04-2024,EAST,  COMPLETED  
+ORD095,CUST95,quinn griffin,PROD84,  Chair Armrest Pad  ,Furniture,2,18.99,37.98,10-04-2024,West,completed
+ORD096,CUST96,  RACHEL DIAZ  ,PROD85,Wireless Presenter,Electronics,1,44.99,44.99,11-04-2024,NORTH,completed
+ORD097,CUST97,samuel hayes,PROD86,  Monitor Riser  ,Furniture,1,34.99,34.99,12-04-2024,south,Completed
+ORD098,CUST98,TINA MYERS,PROD87,Laptop Battery Pack,Electronics,1,79.99,79.99,13-04-2024,East,completed
+ORD099,,ursula ford,PROD88,  Sticky Tape Dispenser  ,accessories,3,8.99,26.97,14-04-2024,west,  COMPLETED  
+ORD100,CUST100,VICTOR HAMILTON,PROD89,4-Port USB Charger,Electronics,2,24.99,49.98,15-04-2024,NORTH,completed
