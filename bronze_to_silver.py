@@ -100,15 +100,47 @@ for col in lower_cols + trim_cols:
         df = df.withColumn(col, F.regexp_replace(F.col(col), bad, good))
 
 # ─────────────────────────────────────────────
-# STEP 4 — CAST DATA TYPES
+
+# ─────────────────────────────────────────────
+# STEP 4 — CAST DATA TYPES + HANDLE MULTIPLE DATE FORMATS
 # ─────────────────────────────────────────────
 logger.info("Casting types...")
 
+# Preserve raw date
+df = df.withColumnRenamed("order_date", "order_date_raw")
+
+# Normalize date (trim + replace / with -)
+df = df.withColumn(
+    "order_date_clean",
+    F.regexp_replace(F.trim(F.col("order_date_raw")), "/", "-")
+)
+
+# Parse multiple formats carefully
+df = df.withColumn(
+    "order_date",
+    F.coalesce(
+        # 1. ISO format (safest)
+        F.to_date("order_date_clean", "yyyy-MM-dd"),
+
+        # 2. dd-MM-yyyy (when day > 12 → unambiguous)
+        F.when(
+            F.col("order_date_clean").substr(1,2).cast("int") > 12,
+            F.to_date("order_date_clean", "dd-MM-yyyy")
+        ),
+
+        # 3. MM-dd-yyyy (fallback)
+        F.to_date("order_date_clean", "MM-dd-yyyy"),
+
+        # 4. dd-MM-yyyy fallback (for remaining)
+        F.to_date("order_date_clean", "dd-MM-yyyy")
+    )
+)
+
+# Cast numeric fields
 df = df \
     .withColumn("quantity",     F.col("quantity").cast(IntegerType())) \
     .withColumn("unit_price",   F.col("unit_price").cast("double")) \
-    .withColumn("total_amount", F.col("total_amount").cast("double")) \
-    .withColumn("order_date",   F.to_date(F.col("order_date"), "yyyy-MM-dd"))
+    .withColumn("total_amount", F.col("total_amount").cast("double"))
 
 # ─────────────────────────────────────────────
 # STEP 5 — HANDLE NULLS
